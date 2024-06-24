@@ -1,0 +1,150 @@
+body {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+.navbar {
+    height: 5.5rem;
+    font-size: 1rem;
+    background-color: white;
+}
+
+.fa-compass {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+
+.f-info {
+    background-color: #ebebeb;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.f-info-social i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.f-info-links,
+.f-info-social,
+.f-info-brand {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+    margin-right: 0.5rem;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+/* cards */
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text {
+    font-size: 400;
+}
+
+.allListing{
+    text-decoration: none;
+}
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* new page button */
+.new-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* Edit page */
+.edit-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* Show page  */
+.show-img{
+    height: 30vh;
+    width: 18rem;
+}
+
+.btns{
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.delete-btn{
+    background-color: #222222 !important;
+    border: none !important;
+    margin-left: 1rem;
+}
+
+.edit-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* Review section */
+.review-card{
+    padding: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover{
+    transform: scale(1.05);
+    border: blue; 
+}
+
+.stars{
+    position: relative;
+    bottom: 0.5rem;
+}
